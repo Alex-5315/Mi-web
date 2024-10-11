@@ -1,0 +1,114 @@
+header{
+    font-family: italic;
+    text-align: center;
+    border: 25px solid #c95137; /* Borde sólido de 5px y color naranja */
+    padding: 10px; /* Espacio interno */
+    margin-bottom: 20px;
+}
+
+body{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    font-family: 'Roboto', sans-serif;
+    background: conic-gradient(from 45deg, #f0f4c3, #dcedc1, #b2ebf2, #b3e5fc, #f0f4c3);
+}
+
+h2 , h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+}
+
+
+
+
+
+
+article.noticia{
+    width: 500px;
+    background-color:aqua;
+    margin-bottom: 24px;
+    padding: 24px 36px;
+}
+
+.noticia {
+    flex: 1 1 calc(25% - 20px); /* Ajusta la proporción y el espacio */
+    margin: 10px;
+    box-sizing: border-box; /* Asegura que padding y borde no afecten el tamaño total */
+}
+
+.noticia img {
+    width: 100%;
+    height: auto; /* Mantén la proporción de las imágenes */
+}
+
+.leer-mas {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff; /* Texto blanco */
+    background-color: #FF6347; /* Un rojo tomate suave */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.leer-mas:hover {
+    background-color: #FF4500; /* Un rojo más intenso al pasar el ratón por encima */
+}
+
+.new-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedor-perfil{
+    display: flex;
+    align-items: center;
+}
+
+.perfil {
+    width: 50%;
+    margin-right: 20px;
+}
+.perfil img{
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion {
+    flex: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medio-comunicacion {
+    margin: 0 10px; /* Espaciado horizontal alrededor de cada imagen */
+}
+
+.medio-comunicacion img {
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: auto; /* Mantén la proporción de la imagen */
+}
